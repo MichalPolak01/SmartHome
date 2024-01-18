@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import SplashScreen from 'react-native-splash-screen';
-import { ConnectionScreen } from './views/ConnectionScreen';
+import ConnectionScreen from './views/ConnectionScreen';
 import { DevicesScreen } from './views/DevicesScreen';
 
 const Tab = createBottomTabNavigator();
